@@ -4,14 +4,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
 
     body {
       background-color: #d7e1f1; 
-      margin: 0; 
+      color:#233255;
+      margin:0; 
+    }
+
+    body.darker {
+    background-color: #233255; /* Dark mode background color */
+    color: #d7e1f1; /* Dark mode text color */
     }
 
     h1 {
-      color: #233255; 
       text-align: center; 
       font-size: 200px;
       padding: 50px 0; 
@@ -19,28 +25,44 @@
     }
 
     nav a {      
-      color: #233255;
       display: inline-block;
       padding: 20px 50px;
-      font-size: 50px;
+      font-size: 40px;
       text-decoration:none;
+      font-family: 'Fira Sans', sans-serif;
+      color:#233255;
     }
     nav a:hover {
       background-color: #aec8f0; 
     }
 
     h2{
-      color: #233255;
       text-align:center;
       font-size:70px;
       padding-top:none;
     }
 
     p{
-      color: #233255;
       text-align:center;
-      font-size:40px;
+      font-size:35px;
+      font-family: 'Fira Sans', sans-serif;
     }
+
+    .alignRight {
+    text-align: right;
+    padding-right: 20px;
+}
+
+    button {
+    font-size: 30px;
+    background-color: #233255;
+    border-color:#d7e1f1;
+    color: #d7e1f1;
+    font-family:'Fira Sans', sans-serif;
+    border-style:solid;
+    border-width:5px;
+    padding:25px;
+}
 
   </style>
 </head>
@@ -51,9 +73,14 @@
     <a href = #>Projects</a>
     <a href = #>Apply Now!</a>
   </nav>
+  <br>
+  <div class = "alignRight">
+    <button id="darkMode">Dark Mode?</button>
+  </div>
   <h1>public static void main(String[] args)</h1>
   <h2>Welcome to our club website!</h2>
   <p>Hello world this is body text what jachelle you don't like my website? too bad i sent loaner sharks to your location</p>
+  <script src="darkmode.js"></script>
 </body>
 </html>
 
