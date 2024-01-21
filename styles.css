@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto Slab');
 
 body {
     background-color: #d7e1f1; 
@@ -25,7 +25,7 @@ nav a {
     padding: 20px 50px;
     font-size: 40px;
     text-decoration:none;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Roboto Slab';
     color:#233255;
 }
 nav a:hover {
@@ -41,7 +41,7 @@ h2{
 p{
     text-align:center;
     font-size:35px;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Roboto Slab';
 }
 
 .alignRight {
@@ -54,7 +54,7 @@ font-size: 30px;
 background-color: #233255;
 border-color:#d7e1f1;
 color: #d7e1f1;
-font-family:'Fira Sans', sans-serif;
+font-family:'Roboto Slab';
 border-style:solid;
 border-width:5px;
 padding:25px;
