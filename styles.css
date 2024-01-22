@@ -22,6 +22,7 @@ h1 {
 
 .navbar__links{
     float: right;
+    padding-top: 20px;
     padding-right: 30px;
 }
 
