@@ -34,6 +34,19 @@ h1 {
     color:#233255;
 }
 
+.bottom_line {
+    text-align:left;
+    padding-left:100px;
+    font-size:25px;
+    background-color: #233255;
+    border-color:#233255;
+    color: #d7e1f1;
+    font-family:'Roboto Slab';
+    border-style:solid;
+    border-width:5px;
+    padding: 10px 25px;
+}
+
 .navbar__links button {
     font-size: 25px;
     background-color: #233255;
@@ -58,20 +71,14 @@ h2{
     text-align:center;
     font-size:70px;
     padding-top:none;
-    padding-left: 50px;
-    padding-right:50px;
-}
-
-ol{
-    padding-left: 100px;
-    font-size:30px;
-    font-family:'Roboto Slab';
 }
 
 p{
     text-align:center;
-    font-size:30px;
+    font-size:29px;
     font-family: 'Roboto Slab';
+    padding-left:300px;
+    padding-right:300px;
 }
 
 .alignRight {
@@ -81,4 +88,31 @@ p{
 
 img {
     padding-left: 15px;
+}
+
+h5 {
+    text-align:left;
+    font-size:45px;
+    padding-left:300px;
+    margin:0;
+}
+
+h6 {
+    text-align:left;
+    font-size:25px;
+    font-family: 'Roboto Slab';
+    padding-left:300px;
+    padding-right:300px;
+    margin:0;
+}
+h4{
+    text-align:center;
+    font-size:45px;
+    padding-left:200px;
+    padding-right:200px;
+}
+
+h3{
+    font-size:20px;
+    text-align:center;
 }
