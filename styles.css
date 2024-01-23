@@ -71,7 +71,7 @@ h1 {
     padding: 20px 30px;
     font-size: 25px;
     text-decoration:none;
-    font-family: 'Roboto Slab';
+    font-family: 'Roboto Mono', monospace;
     color:#00ff99;
 }
 
@@ -95,12 +95,12 @@ h1 {
     color: #090f23;
     font-family: 'Roboto Mono', monospace;
     border-style:solid;
-    border-width:5px;
+    border-width:9px;
     padding: 10px 25px;
 }
 
 .navbar__links a:hover {
-    background-color: #b9c9e2; 
+    background-color: #1b714f; 
     transition: all 0.3s ease;
 }
 
