@@ -7,7 +7,7 @@ const body = document.body;
 
 function typeText() {
     const currentText = textArray[textIndex].substring(0, charIndex);
-    const typingSpeed = 100;
+    const typingSpeed = 150;
     const deletingSpeed = 50;
 
     document.getElementById("typing-text").textContent = currentText;

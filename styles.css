@@ -38,8 +38,15 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vh; /* Adjust the value based on your preference */
+    height: 100vh; /* Adjust the value based on your preference */
     margin: 0;
+}
+
+.arrow__container {
+    display: flex;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
 }
 
 html {
@@ -52,7 +59,7 @@ html {
 }
 
 #typing-text {
-    font-size: 2vh; /* Adjust the value based on your preference */
+    font-size: 7vh; /* Adjust the value based on your preference */
     font-family: 'Lucida Console', monospace;
     white-space: nowrap;
     overflow: hidden;
