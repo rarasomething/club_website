@@ -42,6 +42,15 @@ h1 {
     margin: 0; 
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+.scroll-container {
+    text-align: center;
+    margin-top: 20px; 
+}
+
 #typing-text {
     font-size: 60px;
     font-family: 'Lucida Console', monospace;

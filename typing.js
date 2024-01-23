@@ -25,8 +25,4 @@ function typeText() {
     setTimeout(typeText, isDeleting ? deletingSpeed : typingSpeed);
 }
 
-function redirectToPage() {
-    window.location.href = 'main.html';
-}
-
 typeText();
