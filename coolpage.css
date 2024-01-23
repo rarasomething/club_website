@@ -35,6 +35,6 @@ body {
         border-color: #233255;
 }}
 
-.red-text {
-    color: red; /* Change to red */
+#typing-text b {
+    font-weight: bold;
 }

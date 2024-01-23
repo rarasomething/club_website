@@ -7,8 +7,8 @@ const body = document.body;
 
 function typeText() {
     const currentText = textArray[textIndex].substring(0, charIndex);
-    const typingSpeed = 50; // Adjust typing speed (milliseconds)
-    const deletingSpeed = 50; // Adjust deleting speed (milliseconds)
+    const typingSpeed = 100;
+    const deletingSpeed = 50;
 
     document.getElementById("typing-text").textContent = currentText;
 
@@ -18,7 +18,7 @@ function typeText() {
         charIndex--;
     } else {
         isDeleting = !isDeleting;
-        if (charIndex == 0){
+        if (charIndex == 0) {
             textIndex = (textIndex + 1) % textArray.length;
         }
     }

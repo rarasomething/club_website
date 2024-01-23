@@ -1,0 +1,8 @@
+add search bar https://www.w3schools.com/howto/howto_css_searchbar.asp 
+                https://www.w3schools.com/howto/howto_css_animated_search.asp
+add dropdown to projects navbar https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp
+add parallax scrolling https://www.w3schools.com/howto/howto_css_parallax.asp
+animated menu icon (maybe) https://www.w3schools.com/howto/howto_css_menu_icon.asp
+profile cards https://www.w3schools.com/howto/howto_css_cards.asp
+timeline for projects https://www.w3schools.com/howto/howto_css_timeline.asp
+shrink text animation on scroll https://www.w3schools.com/howto/howto_js_navbar_shrink_scroll.asp

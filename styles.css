@@ -32,7 +32,33 @@ h1 {
     padding-bottom:none;
 }
 
-.navbar__links{
+.title__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0; 
+}
+
+#typing-text {
+    font-size: 60px;
+    font-family: 'Lucida Console', monospace;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 4px solid #233255;
+    display: inline-block;
+    animation: blink-caret 0.75s infinite;
+}
+
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent; 
+    }
+    50% {
+        border-color: #233255;
+}}
+
+.navbar__links {
     float: right;
     padding-top: 20px;
     padding-right: 30px;
