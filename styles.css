@@ -156,8 +156,8 @@ h6 {
     font-family:'Roboto Mono', monospace;
     font-size: 2.5vh; 
     line-height:6.5vh;
-    padding-left:35vh;
-    padding-right:35vh;
+    padding-left:45vh;
+    padding-right:45vh;
 }
 
 h4 {
@@ -165,6 +165,15 @@ h4 {
     font-family:'Roboto Mono', monospace;
     font-size: 5vh; 
     line-height:6.5vh;
+    padding-left:35vh;
+    padding-right:35vh;
+}
+
+h3{
+    text-align: center;
+    font-family:'Roboto Mono', monospace;
+    font-size: 2vh; 
+    line-height:1vh;
     padding-left:35vh;
     padding-right:35vh;
 }
