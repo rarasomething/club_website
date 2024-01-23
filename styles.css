@@ -36,17 +36,42 @@ h1 {
 
 .title__container {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    align-items:start;
+    position: relative;
     height: 100vh; /* Adjust the value based on your preference */
     margin: 0;
+    margin-left: 10vh;
 }
 
 .arrow__container {
     display: flex;
     position: absolute;
-    bottom: 5px;
-    right: 5px;
+    bottom: 10vh;
+    right: 10vh;
+}
+
+#language {
+    display: inline-block;
+    font-size: 2.5vh;
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+    color: #00ff99;
+    margin-top: 5vh;
+    margin-left: 1vh;
+}
+
+#right_arrow {
+    font-size: 10vh;
+    color: #00ff99;
+    background-size: cover;
+    background-color: transparent;
+    transition: transform 0.1s ease;
+    border: 0;
+}
+
+#right_arrow:hover {
+    transform: scale(0.9); 
 }
 
 html {
@@ -62,7 +87,7 @@ html {
     font-size: 7vh; /* Adjust the value based on your preference */
     font-family: 'Lucida Console', monospace;
     white-space: nowrap;
-    overflow: hidden;
+    margin-top: 40vh;
     border-right: 0.4vh solid #00ff99; /* Adjust the value based on your preference */
     display: inline-block;
     animation: blink-caret 0.75s infinite;
