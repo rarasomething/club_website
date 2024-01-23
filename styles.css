@@ -130,6 +130,20 @@ html {
     border-style: solid;
     border-width: 0.5vh; /* Adjust the value based on your preference */
     padding: 1vh 2.5vh; /* Adjust the value based on your preference */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.credits,
+.contact {
+    box-sizing: border-box;
+}
+
+.credits h3,
+.contact h3 {
+  margin: 0;
+  padding: 1.5vh; 
 }
 
 .navbar__links button {
