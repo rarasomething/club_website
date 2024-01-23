@@ -3,10 +3,11 @@ let textIndex = 0;
 let charIndex = 0;
 let isDeleting = false;
 const targetText = "Hello, World!";
+const body = document.body;
 
 function typeText() {
     const currentText = textArray[textIndex].substring(0, charIndex);
-    const typingSpeed = 100; // Adjust typing speed (milliseconds)
+    const typingSpeed = 50; // Adjust typing speed (milliseconds)
     const deletingSpeed = 50; // Adjust deleting speed (milliseconds)
 
     document.getElementById("typing-text").textContent = currentText;
@@ -21,18 +22,22 @@ function typeText() {
         charIndex--;
     } else {
         isDeleting = !isDeleting;
-
-        // Move to the next text in textArray
-        textIndex = (textIndex + 1) % textArray.length;
+        if (charIndex == 0){
+            setTimeout(function() {textIndex = (textIndex + 1) % textArray.length;}, 2000);
+            return 0;
+        }
     }
-
     setTimeout(typeText, isDeleting ? deletingSpeed : typingSpeed);
 }
 
 function redirectToPage() {
-    // Replace 'destination.html' with the actual URL you want to redirect to
     window.location.href = 'main.html';
 }
 
-// Start the typing animation
-typeText();
+async function cool() {
+    while (window.location.href === 'index.html') {
+        await typeText();
+    }
+}
+
+cool();
