@@ -1,27 +1,28 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto Slab');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@300;400&family=Work+Sans&display=swap');
 
 body {
-    background-color: #d7e1f1; 
-    color:#233255;
+    background-color: #090f23; 
+    color:#00ff99;
     margin:0; 
     transition: background-color 0.5s ease; 
 }
 
 body.darker {
-    background-color: #233255; 
-    color: #d7e1f1; 
+    background-color: #00ff99; 
+    color: #090f23; 
     transition: background-color 0.5s ease;
 }
 
 body.dark{
-    background-color:#233255;
-    color:#d7e1f1;
+    background-color:#00ff99;
+    color:#090f23;
     transition:none;
 }
 
 body.dark{
-    background-color:#d7e1f1;
-    color:#233255;
+    background-color:#090f23;
+    color:#00ff99;
     transition:none;
 }
 
@@ -30,6 +31,7 @@ h1 {
     font-size: 200px;
     padding: 50px 0; 
     padding-bottom:none;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .title__container {
@@ -54,7 +56,7 @@ html {
     font-family: 'Lucida Console', monospace;
     white-space: nowrap;
     overflow: hidden;
-    border-right: 4px solid #233255;
+    border-right: 4px solid #00ff99;
     display: inline-block;
     animation: blink-caret 0.75s infinite;
 }
@@ -64,7 +66,7 @@ html {
         border-color: transparent; 
     }
     50% {
-        border-color: #233255;
+        border-color: #00ff99;
 }}
 
 .navbar__links {
@@ -79,17 +81,17 @@ html {
     font-size: 25px;
     text-decoration:none;
     font-family: 'Roboto Slab';
-    color:#233255;
+    color:#00ff99;
 }
 
 .bottom_line {
     text-align:left;
     padding-left:100px;
     font-size:25px;
-    background-color: #233255;
-    border-color:#233255;
-    color: #d7e1f1;
-    font-family:'Roboto Slab';
+    background-color: #00ff99;
+    border-color:#00ff99;
+    color: #090f23;
+    font-family: 'Roboto Mono', monospace;
     border-style:solid;
     border-width:5px;
     padding: 10px 25px;
@@ -97,10 +99,10 @@ html {
 
 .navbar__links button {
     font-size: 25px;
-    background-color: #233255;
-    border-color:#233255;
-    color: #d7e1f1;
-    font-family:'Roboto Slab';
+    background-color: #00ff99;
+    border-color:#00ff99;
+    color: #090f23;
+    font-family: 'Roboto Mono', monospace;
     border-style:solid;
     border-width:5px;
     padding: 10px 25px;
@@ -119,14 +121,16 @@ h2{
     text-align:center;
     font-size:70px;
     padding-top:none;
+    font-family: 'Roboto Mono', monospace;
 }
 
 p{
     text-align:center;
     font-size:29px;
-    font-family: 'Roboto Slab';
-    padding-left:300px;
-    padding-right:300px;
+    font-family: 'Roboto Mono', monospace;
+    padding-left:450px;
+    padding-right:450px;
+    line-height: 3;
 }
 
 .alignRight {
@@ -141,26 +145,30 @@ img {
 h5 {
     text-align:left;
     font-size:45px;
-    padding-left:300px;
+    padding-left:400px;
     margin:0;
+    font-family: 'Roboto Mono', monospace;
 }
 
 h6 {
     text-align:left;
     font-size:25px;
-    font-family: 'Roboto Slab';
-    padding-left:300px;
-    padding-right:300px;
+    font-family: 'Roboto Mono', monospace;
+    padding-left:450px;
+    padding-right:450px;
     margin:0;
+    line-height: 3;
 }
 h4{
     text-align:center;
     font-size:45px;
-    padding-left:200px;
-    padding-right:200px;
+    padding-left:300px;
+    padding-right:300px;
+    font-family: 'Roboto Mono', monospace;
 }
 
 h3{
     font-size:20px;
     text-align:center;
+    font-family: 'Roboto Mono', monospace;
 }
