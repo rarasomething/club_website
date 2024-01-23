@@ -22,6 +22,10 @@ body {
     animation: blink-caret 0.75s infinite;
 }
 
+#next-page {
+    font-size: 30px;
+}
+
 @keyframes blink-caret {
     from, to {
         border-color: transparent; 

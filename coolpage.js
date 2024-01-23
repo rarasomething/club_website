@@ -29,5 +29,10 @@ function typeText() {
     setTimeout(typeText, isDeleting ? deletingSpeed : typingSpeed);
 }
 
+function redirectToPage() {
+    // Replace 'destination.html' with the actual URL you want to redirect to
+    window.location.href = 'main.html';
+}
+
 // Start the typing animation
 typeText();
