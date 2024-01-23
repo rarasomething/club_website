@@ -178,7 +178,7 @@ img {
 h5 {
     text-align: left;
     font-size: 3.7vh; /* Adjust the value based on your preference */
-    padding-left: 40vh; /* Adjust the value based on your preference */
+    padding-left: 30vh; /* Adjust the value based on your preference */
     margin: 0;
     font-family: 'Roboto Mono', monospace;
 }
@@ -188,8 +188,8 @@ h6 {
     font-family:'Roboto Mono', monospace;
     font-size: 2.5vh; 
     line-height:6.5vh;
-    padding-left:45vh;
-    padding-right:45vh;
+    padding-left:30vh;
+    padding-right:30vh;
 }
 
 h4 {
@@ -197,8 +197,8 @@ h4 {
     font-family:'Roboto Mono', monospace;
     font-size: 5vh; 
     line-height:6.5vh;
-    padding-left:35vh;
-    padding-right:35vh;
+    padding-left:20vh;
+    padding-right:20vh;
 }
 
 h3{
