@@ -28,8 +28,8 @@ body.dark {
 
 h1 {
     text-align: center;
-    font-size: 17vh; /* Adjust the value based on your preference */
-    padding: 2vh 0; /* Adjust the value based on your preference */
+    font-size: 17vh; 
+    padding: 2vh 0; 
     padding-bottom: 0;
     font-family: 'Roboto Mono', monospace;
 }
@@ -39,7 +39,7 @@ h1 {
     flex-direction: column;
     align-items:start;
     position: relative;
-    height: 100vh; /* Adjust the value based on your preference */
+    height: 100vh; 
     margin: 0;
     margin-left: 10vh;
 }
@@ -82,15 +82,15 @@ html {
 
 .scroll-container {
     text-align: center;
-    margin-top: 2vh; /* Adjust the value based on your preference */
+    margin-top: 2vh; 
 }
 
 #typing-text {
-    font-size: 7vh; /* Adjust the value based on your preference */
+    font-size: 7vh; 
     font-family: 'Lucida Console', monospace;
     white-space: nowrap;
     margin-top: 40vh;
-    border-right: 0.4vh solid #00ff99; /* Adjust the value based on your preference */
+    border-right: 0.4vh solid #00ff99; 
     display: inline-block;
     animation: blink-caret 0.75s infinite;
 }
@@ -106,14 +106,14 @@ html {
 
 .navbar__links {
     float: right;
-    padding-top: 2vh; /* Adjust the value based on your preference */
-    padding-right: 3vh; /* Adjust the value based on your preference */
+    padding-top: 2vh; 
+    padding-right: 3vh; 
 }
 
 .navbar__links a {
     display: inline-block;
-    padding: 2vh 3vh; /* Adjust the value based on your preference */
-    font-size: 2.5vh; /* Adjust the value based on your preference */
+    padding: 2vh 3vh;
+    font-size: 2.5vh; 
     text-decoration: none;
     font-family: 'Roboto Mono', monospace;
     color: #00ff99;
@@ -121,15 +121,15 @@ html {
 
 .bottom_line {
     text-align: left;
-    padding-left: 10vh; /* Adjust the value based on your preference */
-    font-size: 2.5vh; /* Adjust the value based on your preference */
+    padding-left: 10vh; 
+    font-size: 2.5vh; 
     background-color: #00ff99;
     border-color: #00ff99;
     color: #090f23;
     font-family: 'Roboto Mono', monospace;
     border-style: solid;
-    border-width: 0.5vh; /* Adjust the value based on your preference */
-    padding: 1vh 2.5vh; /* Adjust the value based on your preference */
+    border-width: 0.5vh; 
+    padding: 1vh 2.5vh; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -146,15 +146,23 @@ html {
   padding: 1.5vh; 
 }
 
+.credits {
+    padding-right: 30vh;
+}
+
+.contact {
+    padding-left: 35vh;
+}
+
 .navbar__links button {
-    font-size: 2.5vh; /* Adjust the value based on your preference */
+    font-size: 2.5vh; 
     background-color: #00ff99;
     border-color: #00ff99;
     color: #090f23;
     font-family: 'Roboto Mono', monospace;
     border-style: solid;
-    border-width: 0.5vh; /* Adjust the value based on your preference */
-    padding: 1vh 2.5vh; /* Adjust the value based on your preference */
+    border-width: 0.5vh; 
+    padding: 1vh 2.5vh; 
     text-decoration: none;
 }
 
@@ -169,33 +177,33 @@ html {
 
 h2 {
     text-align: center;
-    font-size: 6vh; /* Adjust the value based on your preference */
+    font-size: 6vh; 
     padding-top: 0;
     font-family: 'Roboto Mono', monospace;
 }
 
 p {
     text-align: center;
-    font-size: 2.5vh; /* Adjust the value based on your preference */
+    font-size: 2.5vh; 
     font-family: 'Roboto Mono', monospace;
-    padding-left: 30vh; /* Adjust the value based on your preference */
-    padding-right: 30vh; /* Adjust the value based on your preference */
+    padding-left: 30vh; 
+    padding-right: 30vh; 
     line-height: 3;
 }
 
 .alignRight {
     text-align: right;
-    padding-right: 2vh; /* Adjust the value based on your preference */
+    padding-right: 2vh; 
 }
 
 img {
-    padding-left: 1.5vh; /* Adjust the value based on your preference */
+    padding-left: 1.5vh; 
 }
 
 h5 {
     text-align: left;
-    font-size: 3.7vh; /* Adjust the value based on your preference */
-    padding-left: 30vh; /* Adjust the value based on your preference */
+    font-size: 3.7vh; 
+    padding-left: 30vh; 
     margin: 0;
     font-family: 'Roboto Mono', monospace;
 }
