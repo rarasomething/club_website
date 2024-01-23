@@ -177,3 +177,24 @@ h3{
     padding-left:35vh;
     padding-right:35vh;
 }
+.button-2 {
+    background-color: #00ff99;
+    color: #090f23;
+    font-size: 2.5vh;
+    padding: 2vh 2vh;
+    cursor: pointer;
+    border: 0.4vh solid #00ff99;
+    transition: background-color 0.3s;
+    border-style:solid;
+    font-family: 'Roboto Mono', monospace;
+    margin: auto; /* Center horizontally */
+    display: block; /* Make it a block-level element */
+}
+
+.button-2:hover {
+    background-color: #1b714f;
+}
+
+.button-2 a{
+    text-decoration:none;
+}
