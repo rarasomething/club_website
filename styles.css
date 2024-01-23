@@ -13,6 +13,18 @@ body.darker {
     transition: background-color 0.5s ease;
 }
 
+body.dark{
+    background-color:#233255;
+    color:#d7e1f1;
+    transition:none;
+}
+
+body.dark{
+    background-color:#d7e1f1;
+    color:#233255;
+    transition:none;
+}
+
 h1 {
     text-align: center; 
     font-size: 200px;

@@ -3,6 +3,23 @@ document.addEventListener('DOMContentLoaded', function () {
     const body = document.body;
     let count = 0;
 
+    document.addEventListener('DOMContentLoaded', function () {
+        if(count%2 == 1){
+            updateLinkColors('#d7e1f1');
+            darkModeButton.style.backgroundColor = '#d7e1f1';
+            darkModeButton.style.borderColor = '#d7e1f1';
+            darkModeButton.style.color = '#233255';
+            darkModeButton.innerHTML = "light mode"
+        }
+        else{
+            updateLinkColors('#233255');
+            darkModeButton.style.backgroundColor = '#233255';
+            darkModeButton.style.borderColor = '#233255';
+            darkModeButton.style.color = '#d7e1f1';
+            darkModeButton.innerHTML = "dark mode?";
+        }
+    });
+
     darkModeButton.addEventListener('click', function () {
         body.classList.toggle('darker');
         count += 1;
