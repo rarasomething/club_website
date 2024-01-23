@@ -25,4 +25,8 @@ function typeText() {
     setTimeout(typeText, isDeleting ? deletingSpeed : typingSpeed);
 }
 
+document.getElementById('typing-text').addEventListener('click', function () {
+    window.scrollBy(0, window.innerHeight);
+});
+
 typeText();
