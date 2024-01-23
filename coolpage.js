@@ -12,10 +12,6 @@ function typeText() {
 
     document.getElementById("typing-text").textContent = currentText;
 
-    // Change color to red when displaying "Hello, World!"
-    const isHelloWorld = currentText === targetText;
-    document.getElementById("typing-text").classList.toggle("red-text", isHelloWorld);
-
     if (!isDeleting && charIndex < textArray[textIndex].length) {
         charIndex++;
     } else if (isDeleting && charIndex > 0) {
@@ -23,8 +19,7 @@ function typeText() {
     } else {
         isDeleting = !isDeleting;
         if (charIndex == 0){
-            setTimeout(function() {textIndex = (textIndex + 1) % textArray.length;}, 2000);
-            return 0;
+            textIndex = (textIndex + 1) % textArray.length;
         }
     }
     setTimeout(typeText, isDeleting ? deletingSpeed : typingSpeed);
@@ -34,10 +29,4 @@ function redirectToPage() {
     window.location.href = 'main.html';
 }
 
-async function cool() {
-    while (window.location.href === 'index.html') {
-        await typeText();
-    }
-}
-
-cool();
+typeText();
