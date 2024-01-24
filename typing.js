@@ -5,10 +5,10 @@ let charIndex = 0;
 let isDeleting = false;
 const body = document.body;
 
-function typeText() {
+async function typeText() {
     const currentText = textArray[textIndex].substring(0, charIndex);
     const currentLanguage = languageArray[textIndex];
-    const typingSpeed = 150;
+    const typingSpeed = 100;
     const deletingSpeed = 50;
 
     document.getElementById("typing-text").textContent = currentText;
@@ -19,12 +19,16 @@ function typeText() {
     } 
     else if (isDeleting && charIndex > 0) {
         charIndex--;
-    } 
+    }
+    else if (!isDeleting && textArray[textIndex].length == charIndex) {
+        await new Promise(r => setTimeout(r, 2000));
+        isDeleting = !isDeleting;
+    }
     else {
+        await new Promise(r => setTimeout(r, 1000));
         isDeleting = !isDeleting;
         if (charIndex == 0) {
             textIndex = (textIndex + 1) % textArray.length;
-            document.getElementById("language").textContent = "";
         }
     }
     setTimeout(typeText, isDeleting ? deletingSpeed : typingSpeed);
