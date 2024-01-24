@@ -16,9 +16,11 @@ function typeText() {
 
     if (!isDeleting && charIndex < textArray[textIndex].length) {
         charIndex++;
-    } else if (isDeleting && charIndex > 0) {
+    } 
+    else if (isDeleting && charIndex > 0) {
         charIndex--;
-    } else {
+    } 
+    else {
         isDeleting = !isDeleting;
         if (charIndex == 0) {
             textIndex = (textIndex + 1) % textArray.length;
