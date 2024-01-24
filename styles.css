@@ -266,3 +266,14 @@ h3 {
 .button-2 a{
     text-decoration:none;
 }
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .column {
+    flex: 1;
+    text-align:center;
+    box-sizing: border-box;
+  }
