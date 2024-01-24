@@ -1,37 +1,43 @@
-const textArray = ["About();", ];
-const languageArray = ["Python", "Java", "C#", "C", "C++"];
-let textIndex = 0;
+let text = "";
 let charIndex = 0;
-let isDeleting = false;
-const body = document.body;
+let myElement;
+const currentPage = window.location.pathname;
+const currentPageName = currentPage.split('/').pop();
 
-async function typeText() {
-    const currentText = textArray[textIndex].substring(0, charIndex);
-    const currentLanguage = languageArray[textIndex];
-    const typingSpeed = 100;
-    const deletingSpeed = 50;
+if ("projects.html" == currentPageName || "projects2.html" == currentPageName) {
+    myElement = document.getElementById('projects_title');
+    text = "Projects();";
+}
+else if ("about.html" == currentPageName || "about2.html" == currentPageName) {
+    myElement = document.getElementById('about_title');
+    text = "About();";
+}
+else if ("join.html" == currentPageName || "join2.html" == currentPageName) {
+    myElement = document.getElementById('join_title');
+    text = "Join();";
+}
+else {
 
-    document.getElementById("typing-text").textContent = currentText;
-    document.getElementById("language").textContent = currentLanguage;
-
-    if (!isDeleting && charIndex < textArray[textIndex].length) {
-        charIndex++;
-    } 
-    else if (isDeleting && charIndex > 0) {
-        charIndex--;
-    }
-    else if (!isDeleting && textArray[textIndex].length == charIndex) {
-        await new Promise(r => setTimeout(r, 2000));
-        isDeleting = !isDeleting;
-    }
-    else {
-        await new Promise(r => setTimeout(r, 1000));
-        isDeleting = !isDeleting;
-        if (charIndex == 0) {
-            textIndex = (textIndex + 1) % textArray.length;
-        }
-    }
-    setTimeout(typeText, isDeleting ? deletingSpeed : typingSpeed);
 }
 
-typeText();
+
+function pageTitle() {
+    myElement.classList.add('blink-animation');
+    const currentText = text.substring(0, charIndex);
+    const typingSpeed = 200;
+
+    myElement.textContent = currentText;
+
+    if (charIndex < text.length) {
+        charIndex++;
+    } 
+    else {
+        myElement.classList.remove('blink-animation');
+        myElement.style.borderRight = '0.4vh solid rgba(244, 249, 255, 0)';
+        return;
+    }
+
+    setTimeout(pageTitle, typingSpeed);
+}
+
+pageTitle();

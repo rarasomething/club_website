@@ -89,6 +89,18 @@ h1 {
     white-space: nowrap;
 }
 
+#about_title, #join_title, #projects_title {
+    display: inline-block;
+    border-right: 0.4vh solid #eaeaea;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 17vh; 
+    padding: 10vh 50vh; 
+    padding-bottom: 0;
+    font-family: 'Roboto Mono', monospace;
+    color: #eaeaea;
+}
+
 html {
     scroll-behavior: smooth;
 }
