@@ -2,20 +2,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@300;400&family=Work+Sans&display=swap');
 
 body.darker {
-    background-color: #00ff99;
-    color: #090f23;
+    background-color: #f4f9ff;
+    color: #262d42;
     transition: background-color 0.5s ease;
 }
 
 body.dark {
-    background-color: #00ff99;
-    color: #090f23;
+    background-color: #f4f9ff;
+    color: #262d42;
     transition: none;
 }
 
 body.dark {
-    background-color: #090f23;
-    color: #00ff99;
+    background-color: #262d42;
+    color: #f4f9ff;
     transition: none;
 }
 
