@@ -71,9 +71,5 @@ document.addEventListener('DOMContentLoaded', function () {
         bottomLine.style.backgroundColor = isDarkMode ? '#27314c' : '#00ff99';
         bottomLine.style.borderColor = isDarkMode ? '#27314c' : '#00ff99';
         bottomLine.style.color = isDarkMode ? '#f4f9ff' : '#090f23';
-        const button2 = document.querySelector('.button-2');
-        button2.style.color = isDarkMode ? '#f4f9ff' : '#090f23';
-        button2.style.backgroundColor = isDarkMode ? '#27314c' : '#00ff99';
-        button2.style.borderColor = isDarkMode ? '#27314c' : '#00ff99';
     }
 });

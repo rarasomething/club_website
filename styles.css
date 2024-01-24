@@ -12,13 +12,6 @@ body.dark {
     color: #00ff99;
     transition: none;
 }
-
-body.dark {
-    background-color: #262d42;
-    color: #00ff99;
-    transition: none;
-}
-
 body {
     background-color: #090f23;
     color: #f4f9ff;
@@ -262,14 +255,6 @@ h3 {
     margin: auto; /* Center horizontally */
     display: block; /* Make it a block-level element */
     text-decoration: none;
-}
-
-.button-2:hover {
-    background-color: #1b714f;
-}
-
-.button-2 a{
-    text-decoration:none;
 }
 
 .container2 {
