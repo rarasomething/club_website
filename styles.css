@@ -2,20 +2,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@300;400&family=Work+Sans&display=swap');
 
 body.darker {
-    background-color: #090f23;
-    color: #00ff99;
+    background-color: #1c1c1c;
+    color: #81c062;
     transition: background-color 0.5s ease;
 }
 
 body.dark {
-    background-color: #262d42;
-    color: #00ff99;
+    background-color: #1c1c1c;
+    color: #81c062;
     transition: none;
 }
-
 body {
-    background-color: #090f23;
-    color: #f4f9ff;
+    background-color: #1c1c1c;
+    color: #81c062;
     margin: 0;
     transition: background-color 0.5s ease;
 }
@@ -26,7 +25,7 @@ h1 {
     padding: 2vh 0; 
     padding-bottom: 0;
     font-family: 'Roboto Mono', monospace;
-    color: #f4f9ff;
+    color: #ffffff;
 }
 
 .title__container {
@@ -51,19 +50,20 @@ h1 {
     font-size: 2.5vh;
     text-decoration: none;
     font-family: 'Roboto Mono', monospace;
-    color: #00ff99;
+    color: #ffffff;
     margin-top: 5vh;
     margin-left: 1vh;
 }
 
 #right_arrow {
-    font-size: 10vh;
-    color: #00ff99;
+    font-size: 4vh;
+    color: #a3e0ff;
     background-size: cover;
     background-color: transparent;
     transition: transform 0.1s ease;
     border: 0;
     text-decoration: none;
+    font-family: "Roboto Mono", monospace;
 }
 
 #right_arrow:hover {
@@ -115,7 +115,7 @@ html {
     font-family: 'Lucida Console', monospace;
     white-space: nowrap;
     margin-top: 40vh;
-    border-right: 0.4vh solid #00ff99; 
+    border-right: 0.4vh solid #a3e0ff; 
     display: inline-block;
     animation: blink-caret 0.75s infinite;
 }
@@ -129,7 +129,7 @@ html {
         border-color: transparent;
     }
     50% {
-        border-color: #00ff99;
+        border-color: #f4f9ff;
     }
 }
 
@@ -154,15 +154,15 @@ html {
     font-size: 2.5vh; 
     text-decoration: none;
     font-family: 'Roboto Mono', monospace;
-    color: #00ff99;
+    color: #ffffff;
 }
 
 .bottom_line {
     text-align: left;
     padding-left: 10vh; 
-    background-color: #212637;
-    border-color: #212637;
-    color: #eaeaea;
+    background-color: #424648;
+    border-color: #424648;
+    color: #9999a1;
     font-family: 'Roboto Mono', monospace;
     border-style: solid;
     border-width: 0.5vh; 
@@ -219,7 +219,7 @@ h2 {
     font-size: 6vh; 
     padding-top: 0;
     font-family: 'Roboto Mono', monospace;
-    color: #eaeaea
+    color: #81c062;
 }
 
 p {
@@ -229,6 +229,7 @@ p {
     padding-left: 30vh; 
     padding-right: 30vh; 
     line-height: 3;
+    color: #ffffff;
 }
 
 .alignRight {
@@ -273,8 +274,8 @@ h4 {
 h3 {
     text-align: center;
     font-family:'Roboto Mono', monospace;
-    font-size: 2vh; 
-    line-height:1vh;
+    font-size: 3vh; 
+    line-height:5vh;
     padding-left:35vh;
     padding-right:35vh;
 }
@@ -286,12 +287,12 @@ h3 {
 }
 
 .button-2 {
-    background-color: #00ff99;
+    background-color: #a3e0ff;
     color: #090f23;
     font-size: 2.5vh;
     padding: 2vh 2vh;
     cursor: pointer;
-    border: 0.4vh solid #00ff99;
+    border: 0.4vh solid #a3e0ff;
     transition: background-color 0.3s;
     border-style:solid;
     font-family: 'Roboto Mono', monospace;
@@ -300,13 +301,6 @@ h3 {
     text-decoration: none;
 }
 
-.button-2:hover {
-    background-color: #1b714f;
-}
-
-.button-2 a{
-    text-decoration:none;
-}
 
 .container2 {
     display: flex;
@@ -320,29 +314,21 @@ h3 {
   }
 
 .pinkText {
-    color:#ee69d4;
+    color:#c078d4;
 }
 
 .orangeText {
-    color: #fcab31;
+    color: #a3e0ff;
 }
 
 .yellowText {
-    color: #f6d02a;
-}
-
-.greenText {
-    color: #50d159;
+    color: #fff3b4;
 }
 
 .blueText {
-    color: #6c90ff;
-}
-
-.greyText {
-    color: #a4a4a4;
+    color: #589adc;
 }
 
 .whiteText {
-    color: #eaeaea;
+    color: #ffffff;
 }

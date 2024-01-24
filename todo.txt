@@ -6,3 +6,5 @@ animated menu icon (maybe) https://www.w3schools.com/howto/howto_css_menu_icon.a
 profile cards https://www.w3schools.com/howto/howto_css_cards.asp
 timeline for projects https://www.w3schools.com/howto/howto_css_timeline.asp
 shrink text animation on scroll https://www.w3schools.com/howto/howto_js_navbar_shrink_scroll.asp
+
+MAKE THE TITLE STUFF LIKE THE JOIN(); graudlay betyepd out on tescrep like the og inddex.html text 
