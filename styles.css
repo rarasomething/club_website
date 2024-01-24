@@ -8,12 +8,6 @@ body.darker {
 }
 
 body.dark {
-    background-color: #090f23;
-    color: #00ff99;
-    transition: none;
-}
-
-body.dark {
     background-color: #262d42;
     color: #00ff99;
     transition: none;
@@ -25,8 +19,6 @@ body {
     margin: 0;
     transition: background-color 0.5s ease;
 }
-
-
 
 h1 {
     text-align: center;
@@ -168,8 +160,8 @@ html {
 .bottom_line {
     text-align: left;
     padding-left: 10vh; 
-    background-color: #00ff99;
-    border-color: #00ff99;
+    background-color: #212637;
+    border-color: #212637;
     color: #090f23;
     font-family: 'Roboto Mono', monospace;
     border-style: solid;
