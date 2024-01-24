@@ -102,12 +102,11 @@ h1 {
 }
 
 #hello_world_title {
-    width: 135vh;
     position: inherit;
     display: inline-block;
     border-right: 0.4vh solid #f4f9ff;
-    animation: blink-caret-2 0.75s infinite;
-  }
+    white-space: nowrap;
+}
 
 html {
     scroll-behavior: smooth;
@@ -126,6 +125,10 @@ html {
     border-right: 0.4vh solid #00ff99; 
     display: inline-block;
     animation: blink-caret 0.75s infinite;
+}
+
+.blink-animation {
+    animation: blink-caret-2 0.75s infinite;
 }
 
 @keyframes blink-caret {
