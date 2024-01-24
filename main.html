@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hello, World!</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
 </head>
 <body>
     <nav class="navbar">
@@ -20,8 +21,8 @@
       </div>
     </nav>
   <br>
-  <h1>Hello, World!</h1>
-  <h4>As a non-CT club, we work to improve digital literacy and promote the healthy and positive use of technology. </h4>
+  <h1 data-aos="flip-down" data-aos-duration="1000">Hello, World!</h1>
+  <h4 data-aos="fade-up" data-aos-duration="1000">As a non-CT club, we work to improve digital literacy and promote the healthy and positive use of technology. </h4>
   <br>
   <br>
   <br>
@@ -46,7 +47,10 @@
     </div>
   </div>
   <script src="darkmode.js"></script>
-  <script src="typing.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
 
