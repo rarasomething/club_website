@@ -56,13 +56,14 @@ h1 {
 }
 
 #right_arrow {
-    font-size: 10vh;
+    font-size: 4vh;
     color: #a3e0ff;
     background-size: cover;
     background-color: transparent;
     transition: transform 0.1s ease;
     border: 0;
     text-decoration: none;
+    font-family: "Roboto Mono", monospace;
 }
 
 #right_arrow:hover {
@@ -159,9 +160,9 @@ html {
 .bottom_line {
     text-align: left;
     padding-left: 10vh; 
-    background-color: #a3e0ff;
-    border-color: #a3e0ff;
-    color: #1c1c1c;
+    background-color: #424648;
+    border-color: #424648;
+    color: #9999a1;
     font-family: 'Roboto Mono', monospace;
     border-style: solid;
     border-width: 0.5vh; 
