@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
         darkModeButton.style.backgroundColor = hoverBackgroundColor;
         darkModeButton.style.borderColor = hoverBorderColor;
         darkModeButton.style.color = hoverColor;
-        darkModeButton.innerHTML = isDarkMode ? 'dark mode?' : 'light mode?';
+        darkModeButton.innerHTML = isDarkMode ? 'change colors?' : 'change colors?';
     }
 
     function handleMouseOut() {
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function () {
         darkModeButton.style.backgroundColor = outBackgroundColor;
         darkModeButton.style.borderColor = outBorderColor;
         darkModeButton.style.color = outColor;
-        darkModeButton.innerHTML = isDarkMode ? 'dark mode?' : 'light mode?';
+        darkModeButton.innerHTML = isDarkMode ? 'change colors?' : 'change colors?';
     }
 
     function updateStyles() {
@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', function () {
         darkModeButton.style.backgroundColor = buttonBackgroundColor;
         darkModeButton.style.borderColor = buttonBorderColor;
         darkModeButton.style.color = buttonColor;
-        darkModeButton.innerHTML = isDarkMode ? 'dark mode?' : 'light mode?';
+        darkModeButton.innerHTML = isDarkMode ? 'change colors?' : 'change colors?';
         const bottomLine = document.querySelector('.bottom_line');
         bottomLine.style.backgroundColor = isDarkMode ? '#27314c' : '#f4f9ff';
         bottomLine.style.borderColor = isDarkMode ? '#27314c' : '#f4f9ff';
