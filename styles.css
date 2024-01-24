@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@300;400&family=Work+Sans&display=swap');
 
 body.darker {
-    background-color: #f4f9ff;
-    color: #262d42;
+    background-color: #090f23;
+    color: #00ff99;
     transition: background-color 0.5s ease;
 }
 
