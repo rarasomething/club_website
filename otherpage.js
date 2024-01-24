@@ -4,15 +4,15 @@ let myElement;
 const currentPage = window.location.pathname;
 const currentPageName = currentPage.split('/').pop();
 
-if ("projects.html" == currentPageName || "projects2.html" == currentPageName) {
+if ("projects.html" == currentPageName) {
     myElement = document.getElementById('projects_title');
     text = "Projects();";
 }
-else if ("about.html" == currentPageName || "about2.html" == currentPageName) {
+else if ("about.html" == currentPageName) {
     myElement = document.getElementById('about_title');
     text = "About();";
 }
-else if ("join.html" == currentPageName || "join2.html" == currentPageName) {
+else if ("join.html" == currentPageName) {
     myElement = document.getElementById('join_title');
     text = "Join();";
 }
