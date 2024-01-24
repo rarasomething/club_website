@@ -1,13 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@300;400&family=Work+Sans&display=swap');
 
-body {
-    background-color: #090f23;
-    color: #00ff99;
-    margin: 0;
-    transition: background-color 0.5s ease;
-}
-
 body.darker {
     background-color: #00ff99;
     color: #090f23;
@@ -25,6 +18,15 @@ body.dark {
     color: #00ff99;
     transition: none;
 }
+
+body {
+    background-color: #090f23;
+    color: #00ff99;
+    margin: 0;
+    transition: background-color 0.5s ease;
+}
+
+
 
 h1 {
     text-align: center;
@@ -155,7 +157,7 @@ html {
 }
 
 .navbar__links button {
-    font-size: 2.5vh; 
+    font-size: 3vh; 
     background-color: #00ff99;
     border-color: #00ff99;
     color: #090f23;
