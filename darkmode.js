@@ -70,8 +70,8 @@ document.addEventListener('DOMContentLoaded', function () {
         darkModeButton.style.color = buttonColor;
         darkModeButton.innerHTML = isDarkMode ? 'change colors?' : 'change colors?';
         const bottomLine = document.querySelector('.bottom_line');
-        bottomLine.style.backgroundColor = isDarkMode ? '#1c1c1c' : '#f4f9ff';
-        bottomLine.style.borderColor = isDarkMode ? '#1c1c1c' : '#f4f9ff';
-        bottomLine.style.color = isDarkMode ? '#f4f9ff' : '#1c1c1c';
+        bottomLine.style.backgroundColor = isDarkMode ? '#1c1c1c' : '#424648';
+        bottomLine.style.borderColor = isDarkMode ? '#1c1c1c' : '#424648';
+        bottomLine.style.color = isDarkMode ? '#f4f9ff' : '#9999a1';
     }
 });
