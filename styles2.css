@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@300;400&family=Work+Sans&display=swap');
+
+body {
+    background-color: #090f23;
+    color: #eaeaea;
+    margin: 0;
+    transition: background-color 0.5s ease;
+}
+
+h1 {
+    text-align: center;
+    font-size: 17vh; 
+    padding: 2vh 0; 
+    padding-bottom: 0;
+    font-family: 'Roboto Mono', monospace;
+    color: #eaeaea;
+}
+
+.title__container {
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    position: relative;
+    height: 100vh; 
+    margin: 0;
+    margin-left: 10vh;
+}
+
+.arrow__container {
+    display: flex;
+    position: absolute;
+    bottom: 10vh;
+    right: 10vh;
+}
+
+#language {
+    display: inline-block;
+    font-size: 2.5vh;
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+    color: #00ff99;
+    margin-top: 5vh;
+    margin-left: 1vh;
+}
+
+#right_arrow {
+    font-size: 10vh;
+    color: #00ff99;
+    background-size: cover;
+    background-color: transparent;
+    transition: transform 0.1s ease;
+    border: 0;
+    text-decoration: none;
+}
+
+#right_arrow:hover {
+    transform: scale(1.1); 
+    text-decoration: none;
+}
+
+.main__container {
+    display: flex; 
+    align-items: center; 
+    padding-top: 20vh;
+}
+
+.main__container h1 {
+    margin: 0;
+    padding-top: 15vh;
+    padding-bottom: 7vh;
+}
+
+#opening_L {
+    padding-left: 15vh;
+    position: absolute;
+}
+
+#closing_L {
+    right: 15vh;
+    position: absolute;
+}
+
+#hello_world_title {
+    padding-left: 6vh;
+    position: inherit;
+    display: inline-block;
+    border-right: 0.4vh solid #eaeaea;
+    white-space: nowrap;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.scroll-container {
+    text-align: center;
+    margin-top: 2vh; 
+}
+
+#typing-text {
+    font-size: 7vh; 
+    font-family: 'Lucida Console', monospace;
+    white-space: nowrap;
+    margin-top: 40vh;
+    border-right: 0.4vh solid #00ff99; 
+    display: inline-block;
+    animation: blink-caret 0.75s infinite;
+}
+
+.blink-animation {
+    animation: blink-caret-2 0.75s infinite;
+}
+
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: #00ff99;
+    }
+}
+
+@keyframes blink-caret-2 {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: #eaeaea;
+    }
+}
+
+.navbar__links {
+    float: right;
+    padding-top: 2vh; 
+    padding-right: 3vh; 
+}
+
+.navbar__links a {
+    display: inline-block;
+    padding: 2vh 3vh;
+    font-size: 2.5vh; 
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.bottom_line {
+    text-align: left;
+    padding-left: 10vh; 
+    background-color: #212637;
+    border-color: #212637;
+    color: #090f23;
+    color: #eaeaea;
+    font-family: 'Roboto Mono', monospace;
+    border-style: solid;
+    border-width: 0.5vh; 
+    padding: 6vh 2.5vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.credits,
+.contact {
+    box-sizing: border-box;
+}
+
+.credits h3,
+.contact h3 {
+  margin: 0;
+  padding: 1.5vh; 
+  font-size: 2vh; 
+  text-align: left;
+}
+
+.credits {
+    padding-right: 30vh;
+}
+
+.contact {
+    padding-left: 35vh;
+}
+
+.navbar__links button {
+    font-size: 3vh; 
+    background-color: #090f23;
+    border-color : #a4a4a4;
+    color: #a4a4a4;
+    font-family: 'Roboto Mono', monospace;
+    border-style: solid;
+    border-width: 0.5vh; 
+    padding: 1vh 2.5vh; 
+    text-decoration: none;
+}
+
+.navbar__links a:hover {
+    background-color: #303030;
+    transition: all 0.3s ease;
+}
+
+.navbar__links button:hover {
+    transition: all 0.3s ease;
+}
+
+h2 {
+    text-align: center;
+    font-size: 6vh; 
+    padding-top: 0;
+    font-family: 'Roboto Mono', monospace;
+    color: #eaeaea
+}
+
+p {
+    text-align: center;
+    font-size: 2.5vh; 
+    font-family: 'Roboto Mono', monospace;
+    padding-left: 30vh; 
+    padding-right: 30vh; 
+    line-height: 3;
+}
+
+.alignRight {
+    text-align: right;
+    padding-right: 2vh; 
+}
+
+img {
+    padding-left: 1.5vh; 
+}
+
+h5 {
+    text-align: left;
+    font-size: 3.7vh; 
+    padding-left: 30vh; 
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+    color: #eaeaea
+}
+
+h6 {
+    text-align: left;
+    font-family:'Roboto Mono', monospace;
+    font-size: 2.5vh; 
+    line-height:6.5vh;
+    padding-left:30vh;
+    padding-right:30vh;
+    color: #eaeaea
+}
+
+h4 {
+    text-align: left;
+    font-family:'Roboto Mono', monospace;
+    font-size: 5vh; 
+    line-height:6.5vh;
+    padding-left:15vh;
+    padding-right:15vh;
+    padding-top: 20vh;
+    color: #eaeaea
+}
+
+h3 {
+    text-align: center;
+    font-family:'Roboto Mono', monospace;
+    font-size: 2vh; 
+    line-height:1vh;
+    padding-left:35vh;
+    padding-right:35vh;
+}
+
+.logo {
+    width: 7vh;
+    padding-left: 3vh;
+    padding-top: 2vh;
+}
+
+.button-2 {
+    background-color: #00ff99;
+    color: #090f23;
+    font-size: 2.5vh;
+    padding: 2vh 2vh;
+    cursor: pointer;
+    border: 0.4vh solid #00ff99;
+    transition: background-color 0.3s;
+    border-style:solid;
+    font-family: 'Roboto Mono', monospace;
+    margin: auto; /* Center horizontally */
+    display: block; /* Make it a block-level element */
+    text-decoration: none;
+}
+
+.button-2:hover {
+    background-color: #1b714f;
+}
+
+.button-2 a{
+    text-decoration:none;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    flex: 1;
+    text-align:center;
+    box-sizing: border-box;
+}
+
+.pinkText {
+    color:#ee69d4;
+}
+
+.orangeText {
+    color: #fcab31;
+}
+
+.yellowText {
+    color: #f6d02a;
+}
+
+.greenText {
+    color: #50d159;
+}
+
+.blueText {
+    color: #6c90ff;
+}
+
+.greyText {
+    color: #a4a4a4;
+}
+
+.whiteText {
+    color: #eaeaea;
+}
