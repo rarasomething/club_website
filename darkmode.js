@@ -16,9 +16,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function handleHover() {
         // Updated hover colors
-        const hoverBackgroundColor = isDarkMode ? '#f4f9ff' : '#a3e0ff';
-        const hoverBorderColor = isDarkMode ? '#1c1c1c' : '#a3e0ff';
-        const hoverColor = isDarkMode ? '#1c1c1c' : '#1c1c1c';
+        const hoverBackgroundColor = isDarkMode ? '#ffffff' : '#a3e0ff';
+        const hoverBorderColor = isDarkMode ? '#ffffff' : '#a3e0ff';
+        const hoverColor = isDarkMode ? '#0f1126' : '#1c1c1c';
         darkModeButton.style.backgroundColor = hoverBackgroundColor;
         darkModeButton.style.borderColor = hoverBorderColor;
         darkModeButton.style.color = hoverColor;
@@ -27,9 +27,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function handleMouseOut() {
         // Updated default colors
-        const outBackgroundColor = isDarkMode ? '#1c1c1c' : '#1c1c1c';
-        const outBorderColor = isDarkMode ? '#1c1c1c' : '#a3e0ff';
-        const outColor = isDarkMode ? '#f4f9ff' : '#a3e0ff';
+        const outBackgroundColor = isDarkMode ? '#0f1126' : '#1c1c1c';
+        const outBorderColor = isDarkMode ? '#ffffff' : '#a3e0ff';
+        const outColor = isDarkMode ? '#ffffff' : '#a3e0ff';
 
         darkModeButton.style.backgroundColor = outBackgroundColor;
         darkModeButton.style.borderColor = outBorderColor;
@@ -38,8 +38,34 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     function updateStyles() {
-        const backgroundColor = isDarkMode ? '#f4f9ff' : '#1c1c1c';
-        const textColor = isDarkMode ? '#1c1c1c' : '#a3e0ff';
+        const orangeText = document.querySelectorAll('.orangeText');
+        const orangeColor = isDarkMode ? '#fcab31' : '#a3e0ff';
+        orangeText.forEach(element => {
+            element.style.color = orangeColor;
+        });
+        const pinkText = document.querySelectorAll('.pinkText');
+        const pinkColor = isDarkMode ? '#ee69d4' : '#c078d4';
+        pinkText.forEach(element => {
+            element.style.color = pinkColor;
+        });
+        const yellowText = document.querySelectorAll('.yellowText');
+        const yellowColor = isDarkMode ? '#f6d02a' : '#fff3b4';
+        yellowText.forEach(element => {
+            element.style.color = yellowColor;
+        });
+        const blueText = document.querySelectorAll('.blueText');
+        const blueColor = isDarkMode ? '#6c90ff' : '#589adc';
+        blueText.forEach(element => {
+            element.style.color = blueColor;
+        });
+        const headerTwoText = document.querySelectorAll('h2');
+        const headerTwoColor = isDarkMode ? '#50d159' : '#81c062';
+        headerTwoText.forEach(element => {
+            element.style.color = headerTwoColor;
+        });
+
+        const backgroundColor = isDarkMode ? '#0f1126' : '#1c1c1c';
+        const textColor = isDarkMode ? '#ffffff' : '#a3e0ff';
 
         body.style.backgroundColor = backgroundColor;
         body.style.color = textColor;
@@ -62,16 +88,16 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function updateButtonStyles() {
         // Updated initial colors
-        const buttonBackgroundColor = isDarkMode ? '#f4f9ff' : '#1c1c1c';
-        const buttonBorderColor = isDarkMode ? '#1c1c1c' : '#a3e0ff';
-        const buttonColor = isDarkMode ? '#1c1c1c' : '#a3e0ff';
+        const buttonBackgroundColor = isDarkMode ? '#0f1126' : '#1c1c1c';
+        const buttonBorderColor = isDarkMode ? '#ffffff' : '#a3e0ff';
+        const buttonColor = isDarkMode ? '#ffffff' : '#a3e0ff';
         darkModeButton.style.backgroundColor = buttonBackgroundColor;
         darkModeButton.style.borderColor = buttonBorderColor;
         darkModeButton.style.color = buttonColor;
         darkModeButton.innerHTML = isDarkMode ? 'change colors?' : 'change colors?';
         const bottomLine = document.querySelector('.bottom_line');
-        bottomLine.style.backgroundColor = isDarkMode ? '#1c1c1c' : '#424648';
-        bottomLine.style.borderColor = isDarkMode ? '#1c1c1c' : '#424648';
-        bottomLine.style.color = isDarkMode ? '#f4f9ff' : '#9999a1';
+        bottomLine.style.backgroundColor = isDarkMode ? '#212659' : '#424648';
+        bottomLine.style.borderColor = isDarkMode ? '#212659' : '#424648';
+        bottomLine.style.color = isDarkMode ? '#ffffff' : '#9999a1';
     }
 });
