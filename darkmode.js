@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const darkModeButton = document.getElementById('darkMode');
+    const darkModeButton = document.querySelector(".darkMode");
     const body = document.body;
     const content = document.getElementById('content');
     let isDarkMode = localStorage.getItem('darkMode') === 'true';

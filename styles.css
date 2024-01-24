@@ -34,6 +34,7 @@ h1 {
     padding: 2vh 0; 
     padding-bottom: 0;
     font-family: 'Roboto Mono', monospace;
+    color: #f4f9ff;
 }
 
 .title__container {
@@ -159,9 +160,9 @@ html {
 
 .navbar__links button {
     font-size: 3vh; 
-    background-color: #00ff99;
-    border-color : #00ff99;
-    color: #090f23;
+    background-color: #090f23;
+    border-color : #fcab31;
+    color: #fcab31;
     font-family: 'Roboto Mono', monospace;
     border-style: solid;
     border-width: 0.5vh; 
@@ -170,7 +171,7 @@ html {
 }
 
 .navbar__links a:hover {
-    background-color: #1b714f;
+    background-color: #303030;
     transition: all 0.3s ease;
 }
 
@@ -183,6 +184,7 @@ h2 {
     font-size: 6vh; 
     padding-top: 0;
     font-family: 'Roboto Mono', monospace;
+    color: #eaeaea
 }
 
 p {
@@ -209,6 +211,7 @@ h5 {
     padding-left: 30vh; 
     margin: 0;
     font-family: 'Roboto Mono', monospace;
+    color: #eaeaea
 }
 
 h6 {
@@ -218,6 +221,7 @@ h6 {
     line-height:6.5vh;
     padding-left:30vh;
     padding-right:30vh;
+    color: #eaeaea
 }
 
 h4 {
@@ -227,6 +231,7 @@ h4 {
     line-height:6.5vh;
     padding-left:20vh;
     padding-right:20vh;
+    color: #eaeaea
 }
 
 h3 {
@@ -272,8 +277,28 @@ h3 {
     justify-content: space-between;
   }
 
-  .column {
+.column {
     flex: 1;
     text-align:center;
     box-sizing: border-box;
   }
+
+.pinkText {
+    color:#ee69d4;
+}
+
+.orangeText {
+    color: #fcab31
+}
+
+.yellowText {
+    color: #f6d02a
+}
+
+.blueText {
+    color: #6c90ff
+}
+
+.whiteText {
+    color: #eaeaea
+}
