@@ -331,11 +331,11 @@ h3 {
 }
 
 .orangeText {
-    color: #fcab31
+    color: #fcab31;
 }
 
 .yellowText {
-    color: #f6d02a
+    color: #f6d02a;
 }
 
 .greenText {
@@ -343,9 +343,13 @@ h3 {
 }
 
 .blueText {
-    color: #6c90ff
+    color: #6c90ff;
+}
+
+.greyText {
+    color: #a4a4a4;
 }
 
 .whiteText {
-    color: #eaeaea
+    color: #eaeaea;
 }
