@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@300;400&family=Work+Sans&display=swap');
 
-body.darker {
+body.contraster {
     background-color: #1c1c1c;
     color: #81c062;
     transition: background-color 0.5s ease;
 }
 
-body.dark {
+body.contrast {
     background-color: #1c1c1c;
     color: #81c062;
     transition: none;
