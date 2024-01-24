@@ -63,10 +63,15 @@ document.addEventListener('DOMContentLoaded', function () {
         const buttonBackgroundColor = isDarkMode ? '#f4f9ff' : '#090f23';
         const buttonBorderColor = isDarkMode ? '#27314c' : '#00ff99';
         const buttonColor = isDarkMode ? '#27314c' : '#00ff99';
+        const button2 = document.querySelectorAll('.button-2');
 
         darkModeButton.style.backgroundColor = buttonBackgroundColor;
         darkModeButton.style.borderColor = buttonBorderColor;
         darkModeButton.style.color = buttonColor;
         darkModeButton.innerHTML = isDarkMode ? 'dark mode?' : 'light mode?';
+        const bottomLine = document.querySelector('.bottom_line');
+        bottomLine.style.backgroundColor = isDarkMode ? '#27314c' : '#00ff99';
+        bottomLine.style.borderColor = isDarkMode ? '#27314c' : '#00ff99';
+        bottomLine.style.color = isDarkMode ? '#f4f9ff' : '#090f23';
     }
 });
