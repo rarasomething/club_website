@@ -160,7 +160,7 @@ html {
 .navbar__links button {
     font-size: 3vh; 
     background-color: #00ff99;
-    border-color: #00ff99;
+    border-color : #00ff99;
     color: #090f23;
     font-family: 'Roboto Mono', monospace;
     border-style: solid;
