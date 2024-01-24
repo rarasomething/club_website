@@ -95,7 +95,7 @@ h1 {
     white-space: nowrap;
     text-align: center;
     font-size: 17vh; 
-    padding: 10vh 50vh; 
+    margin: 10vh 50vh; 
     padding-bottom: 0;
     font-family: 'Roboto Mono', monospace;
     color: #eaeaea;
