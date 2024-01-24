@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
         // Updated hover colors
         const hoverBackgroundColor = isDarkMode ? '#ffffff' : '#a3e0ff';
         const hoverBorderColor = isDarkMode ? '#ffffff' : '#a3e0ff';
-        const hoverColor = isDarkMode ? '#0f1126' : '#1c1c1c';
+        const hoverColor = isDarkMode ? '#11121f' : '#1c1c1c';
         darkModeButton.style.backgroundColor = hoverBackgroundColor;
         darkModeButton.style.borderColor = hoverBorderColor;
         darkModeButton.style.color = hoverColor;
@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function handleMouseOut() {
         // Updated default colors
-        const outBackgroundColor = isDarkMode ? '#0f1126' : '#1c1c1c';
+        const outBackgroundColor = isDarkMode ? '#11121f' : '#1c1c1c';
         const outBorderColor = isDarkMode ? '#ffffff' : '#a3e0ff';
         const outColor = isDarkMode ? '#ffffff' : '#a3e0ff';
 
@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', function () {
             element.style.color = headerTwoColor;
         });
 
-        const backgroundColor = isDarkMode ? '#0f1126' : '#1c1c1c';
+        const backgroundColor = isDarkMode ? '#11121f' : '#1c1c1c';
         const textColor = isDarkMode ? '#ffffff' : '#a3e0ff';
 
         body.style.backgroundColor = backgroundColor;
@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function updateButtonStyles() {
         // Updated initial colors
-        const buttonBackgroundColor = isDarkMode ? '#0f1126' : '#1c1c1c';
+        const buttonBackgroundColor = isDarkMode ? '#11121f' : '#1c1c1c';
         const buttonBorderColor = isDarkMode ? '#ffffff' : '#a3e0ff';
         const buttonColor = isDarkMode ? '#ffffff' : '#a3e0ff';
         darkModeButton.style.backgroundColor = buttonBackgroundColor;
@@ -96,8 +96,8 @@ document.addEventListener('DOMContentLoaded', function () {
         darkModeButton.style.color = buttonColor;
         darkModeButton.innerHTML = isDarkMode ? 'lower contrast?' : 'higher contrast?';
         const bottomLine = document.querySelector('.bottom_line');
-        bottomLine.style.backgroundColor = isDarkMode ? '#212659' : '#424648';
-        bottomLine.style.borderColor = isDarkMode ? '#212659' : '#424648';
+        bottomLine.style.backgroundColor = isDarkMode ? '#1a1b29' : '#424648';
+        bottomLine.style.borderColor = isDarkMode ? '#1a1b29' : '#424648';
         bottomLine.style.color = isDarkMode ? '#ffffff' : '#9999a1';
     }
 });
