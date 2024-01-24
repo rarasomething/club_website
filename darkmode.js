@@ -18,8 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
         // Updated hover colors
         const hoverBackgroundColor = isDarkMode ? '#f4f9ff' : '#a3e0ff';
         const hoverBorderColor = isDarkMode ? '#27314c' : '#a3e0ff';
-        const hoverColor = isDarkMode ? '#27314c' : '#a3e0ff';
-
+        const hoverColor = isDarkMode ? '#27314c' : '#1c1c1c';
         darkModeButton.style.backgroundColor = hoverBackgroundColor;
         darkModeButton.style.borderColor = hoverBorderColor;
         darkModeButton.style.color = hoverColor;
@@ -64,15 +63,15 @@ document.addEventListener('DOMContentLoaded', function () {
     function updateButtonStyles() {
         // Updated initial colors
         const buttonBackgroundColor = isDarkMode ? '#f4f9ff' : '#1c1c1c';
-        const buttonBorderColor = isDarkMode ? '#a3e0ff' : '#00ff99';
-        const buttonColor = isDarkMode ? '#a3e0ff' : '#00ff99';
+        const buttonBorderColor = isDarkMode ? '#a3e0ff' : '#a3e0ff';
+        const buttonColor = isDarkMode ? '#a3e0ff' : '#a3e0ff';
         darkModeButton.style.backgroundColor = buttonBackgroundColor;
         darkModeButton.style.borderColor = buttonBorderColor;
         darkModeButton.style.color = buttonColor;
         darkModeButton.innerHTML = isDarkMode ? 'dark mode?' : 'light mode?';
         const bottomLine = document.querySelector('.bottom_line');
-        bottomLine.style.backgroundColor = isDarkMode ? '#27314c' : '#00ff99';
-        bottomLine.style.borderColor = isDarkMode ? '#27314c' : '#00ff99';
+        bottomLine.style.backgroundColor = isDarkMode ? '#27314c' : '#f4f9ff';
+        bottomLine.style.borderColor = isDarkMode ? '#27314c' : '#f4f9ff';
         bottomLine.style.color = isDarkMode ? '#f4f9ff' : '#1c1c1c';
     }
 });
