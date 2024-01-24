@@ -4,10 +4,8 @@ document.addEventListener('DOMContentLoaded', function () {
     const content = document.getElementById('content');
     let isDarkMode = localStorage.getItem('darkMode') === 'true';
 
-    // Initial styles
     updateStyles();
 
-    // Event listeners
     darkModeButton.addEventListener('click', function () {
         isDarkMode = !isDarkMode;
         localStorage.setItem('darkMode', isDarkMode);
@@ -17,9 +15,8 @@ document.addEventListener('DOMContentLoaded', function () {
     darkModeButton.addEventListener('mouseover', handleHover);
     darkModeButton.addEventListener('mouseout', handleMouseOut);
 
-    // Functions
     function handleHover() {
-        const hoverBackgroundColor = isDarkMode ? '#00ff99' : '#090f23';
+        const hoverBackgroundColor = isDarkMode ? '#9cffd7' : '#090f23';
         const hoverBorderColor = isDarkMode ? '#090f23' : '#00ff99';
         const hoverColor = isDarkMode ? '#090f23' : '#00ff99';
 
@@ -32,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function () {
     function handleMouseOut() {
         const outBackgroundColor = isDarkMode ? '#090f23' : '#00ff99';
         const outBorderColor = isDarkMode ? '#090f23' : '#00ff99';
-        const outColor = isDarkMode ? '#00ff99' : '#090f23';
+        const outColor = isDarkMode ? '#9cffd7' : '#090f23';
 
         darkModeButton.style.backgroundColor = outBackgroundColor;
         darkModeButton.style.borderColor = outBorderColor;
@@ -41,22 +38,18 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     function updateStyles() {
-        const backgroundColor = isDarkMode ? '#00ff99' : '#090f23';
+        const backgroundColor = isDarkMode ? '#9cffd7' : '#090f23';
         const textColor = isDarkMode ? '#090f23' : '#00ff99';
 
-        // Set initial styles directly in the HTML or use inline styles
         body.style.backgroundColor = backgroundColor;
         body.style.color = textColor;
         updateLinkColors(textColor);
         updateButtonStyles();
 
-        // Ensure a consistent firing of DOMContentLoaded event
         setTimeout(() => {
-            // Re-enable transition after a short timeout
             body.style.transition = '';
         }, 0);
 
-        // Disable transition during style update
         body.style.transition = 'none';
     }
 
@@ -68,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     function updateButtonStyles() {
-        const buttonBackgroundColor = isDarkMode ? '#00ff99' : '#090f23';
+        const buttonBackgroundColor = isDarkMode ? '#9cffd7' : '#090f23';
         const buttonBorderColor = isDarkMode ? '#090f23' : '#00ff99';
         const buttonColor = isDarkMode ? '#090f23' : '#00ff99';
 
