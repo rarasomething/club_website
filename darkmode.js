@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
     function handleHover() {
         const hoverBackgroundColor = isDarkMode ? '#f4f9ff' : '#090f23';
         const hoverBorderColor = isDarkMode ? '##27314c' : '#00ff99';
-        const hoverColor = isDarkMode ? '##27314c' : '#00ff99';
+        const hoverColor = isDarkMode ? '#27314c' : '#00ff99';
 
         darkModeButton.style.backgroundColor = hoverBackgroundColor;
         darkModeButton.style.borderColor = hoverBorderColor;
@@ -63,7 +63,6 @@ document.addEventListener('DOMContentLoaded', function () {
         const buttonBackgroundColor = isDarkMode ? '#f4f9ff' : '#090f23';
         const buttonBorderColor = isDarkMode ? '#27314c' : '#00ff99';
         const buttonColor = isDarkMode ? '#27314c' : '#00ff99';
-
         darkModeButton.style.backgroundColor = buttonBackgroundColor;
         darkModeButton.style.borderColor = buttonBorderColor;
         darkModeButton.style.color = buttonColor;

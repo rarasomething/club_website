@@ -8,20 +8,20 @@ body.darker {
 }
 
 body.dark {
-    background-color: #f4f9ff;
-    color: #262d42;
+    background-color: #090f23;
+    color: #00ff99;
     transition: none;
 }
 
 body.dark {
     background-color: #262d42;
-    color: #f4f9ff;
+    color: #00ff99;
     transition: none;
 }
 
 body {
     background-color: #090f23;
-    color: #00ff99;
+    color: #f4f9ff;
     margin: 0;
     transition: background-color 0.5s ease;
 }
