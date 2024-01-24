@@ -82,23 +82,31 @@ h1 {
 .main__container {
     display: flex; 
     align-items: center; 
+    padding-top: 20vh;
 }
 
 .main__container h1 {
     margin: 0;
+    padding-top: 15vh;
+    padding-bottom: 7vh;
 }
 
 #opening_L {
     padding-left: 15vh;
+    position: absolute;
 }
 
-/*
 #closing_L {
+    right: 15vh;
+    position: absolute;
 }
-*/
 
 #hello_world_title {
+    width: 135vh;
+    position: inherit;
     display: inline-block;
+    border-right: 0.4vh solid #f4f9ff;
+    animation: blink-caret-2 0.75s infinite;
   }
 
 html {
@@ -126,6 +134,15 @@ html {
     }
     50% {
         border-color: #00ff99;
+    }
+}
+
+@keyframes blink-caret-2 {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: #f4f9ff;
     }
 }
 
@@ -251,8 +268,9 @@ h4 {
     font-family:'Roboto Mono', monospace;
     font-size: 5vh; 
     line-height:6.5vh;
-    padding-left:20vh;
-    padding-right:20vh;
+    padding-left:15vh;
+    padding-right:15vh;
+    padding-top: 20vh;
     color: #eaeaea
 }
 
