@@ -17,8 +17,8 @@ document.addEventListener('DOMContentLoaded', function () {
     function handleHover() {
         // Updated hover colors
         const hoverBackgroundColor = isDarkMode ? '#f4f9ff' : '#a3e0ff';
-        const hoverBorderColor = isDarkMode ? '#27314c' : '#a3e0ff';
-        const hoverColor = isDarkMode ? '#27314c' : '#1c1c1c';
+        const hoverBorderColor = isDarkMode ? '#1c1c1c' : '#a3e0ff';
+        const hoverColor = isDarkMode ? '#1c1c1c' : '#1c1c1c';
         darkModeButton.style.backgroundColor = hoverBackgroundColor;
         darkModeButton.style.borderColor = hoverBorderColor;
         darkModeButton.style.color = hoverColor;
@@ -27,8 +27,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function handleMouseOut() {
         // Updated default colors
-        const outBackgroundColor = isDarkMode ? '#27314c' : '#1c1c1c';
-        const outBorderColor = isDarkMode ? '#27314c' : '#a3e0ff';
+        const outBackgroundColor = isDarkMode ? '#1c1c1c' : '#1c1c1c';
+        const outBorderColor = isDarkMode ? '#1c1c1c' : '#a3e0ff';
         const outColor = isDarkMode ? '#f4f9ff' : '#a3e0ff';
 
         darkModeButton.style.backgroundColor = outBackgroundColor;
@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function updateStyles() {
         const backgroundColor = isDarkMode ? '#f4f9ff' : '#1c1c1c';
-        const textColor = isDarkMode ? '#27314c' : '#a3e0ff';
+        const textColor = isDarkMode ? '#1c1c1c' : '#a3e0ff';
 
         body.style.backgroundColor = backgroundColor;
         body.style.color = textColor;
@@ -63,15 +63,15 @@ document.addEventListener('DOMContentLoaded', function () {
     function updateButtonStyles() {
         // Updated initial colors
         const buttonBackgroundColor = isDarkMode ? '#f4f9ff' : '#1c1c1c';
-        const buttonBorderColor = isDarkMode ? '#a3e0ff' : '#a3e0ff';
-        const buttonColor = isDarkMode ? '#a3e0ff' : '#a3e0ff';
+        const buttonBorderColor = isDarkMode ? '#1c1c1c' : '#a3e0ff';
+        const buttonColor = isDarkMode ? '#1c1c1c' : '#a3e0ff';
         darkModeButton.style.backgroundColor = buttonBackgroundColor;
         darkModeButton.style.borderColor = buttonBorderColor;
         darkModeButton.style.color = buttonColor;
         darkModeButton.innerHTML = isDarkMode ? 'change colors?' : 'change colors?';
         const bottomLine = document.querySelector('.bottom_line');
-        bottomLine.style.backgroundColor = isDarkMode ? '#27314c' : '#f4f9ff';
-        bottomLine.style.borderColor = isDarkMode ? '#27314c' : '#f4f9ff';
+        bottomLine.style.backgroundColor = isDarkMode ? '#1c1c1c' : '#f4f9ff';
+        bottomLine.style.borderColor = isDarkMode ? '#1c1c1c' : '#f4f9ff';
         bottomLine.style.color = isDarkMode ? '#f4f9ff' : '#1c1c1c';
     }
 });
