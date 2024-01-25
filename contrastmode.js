@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function () {
         contrastModeButton.style.backgroundColor = outBackgroundColor;
         contrastModeButton.style.borderColor = outBorderColor;
         contrastModeButton.style.color = outColor;
-        contrastModeButton.innerHTML = isContrastMode ? 'lower contrast?' : 'higher contrast?';
+        contrastModeButton.innerHTML = isContrastMode ? 'less colors?' : 'more colors?';
     }
 
     function updateStyles() {
@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', function () {
         contrastModeButton.style.backgroundColor = buttonBackgroundColor;
         contrastModeButton.style.borderColor = buttonBorderColor;
         contrastModeButton.style.color = buttonColor;
-        contrastModeButton.innerHTML = isContrastMode ? 'lower contrast?' : 'higher contrast?';
+        contrastModeButton.innerHTML = isContrastMode ? 'less colors?' : 'more colors?';
         const bottomLine = document.querySelector('.bottom_line');
         bottomLine.style.backgroundColor = isContrastMode ? '#1a1b29' : '#424648';
         bottomLine.style.borderColor = isContrastMode ? '#1a1b29' : '#424648';
