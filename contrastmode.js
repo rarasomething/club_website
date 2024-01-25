@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
         contrastModeButton.style.backgroundColor = hoverBackgroundColor;
         contrastModeButton.style.borderColor = hoverBorderColor;
         contrastModeButton.style.color = hoverColor;
-        contrastModeButton.innerHTML = isContrastMode ? 'lower contrast?' : 'higher contrast?';
+        contrastModeButton.innerHTML = isContrastMode ? 'less colors?' : 'more colors?';
     }
 
     function handleMouseOut() {
