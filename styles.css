@@ -305,13 +305,15 @@ h3 {
 .container2 {
     display: flex;
     justify-content: space-between;
-  }
+}
 
 .column {
     flex: 1;
-    text-align:center;
+    text-align: center;
     box-sizing: border-box;
-  }
+    overflow: hidden;
+    white-space: nowrap;
+}
 
 .pinkText {
     color:#c078d4;
