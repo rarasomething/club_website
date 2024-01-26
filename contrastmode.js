@@ -43,6 +43,11 @@ document.addEventListener('DOMContentLoaded', function () {
         orangeText.forEach(element => {
             element.style.color = orangeColor;
         });
+        const section1 = document.querySelectorAll('.section1');
+        const section1Color = isContrastMode ? '#26243b' : '#292929';
+        section1.forEach(element => {
+            element.style.backgroundColor = section1Color;
+        });
         const pinkText = document.querySelectorAll('.pinkText');
         const pinkColor = isContrastMode ? '#ee69d4' : '#c078d4';
         pinkText.forEach(element => {
