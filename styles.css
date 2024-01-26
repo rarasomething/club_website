@@ -12,7 +12,20 @@ body.contrast {
     color: #81c062;
     transition: none;
 }
-body {
+body {<?xml version="1.0" encoding="UTF-8"?>
+    <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 33.41">
+      <defs>
+        <style>
+          .cls-1 {
+            fill: none;
+            stroke: #000;
+            stroke-miterlimit: 10;
+            stroke-width: 4px;
+          }
+        </style>
+      </defs>
+      <line class="cls-1" x1="2" x2="2" y2="33.41"/>
+    </svg>
     background-color: #1c1c1c;
     color: #81c062;
     margin: 0;
@@ -239,6 +252,14 @@ p {
 
 img {
     padding-left: 1.5vh; 
+    max-width: 100%;
+    height: auto;
+}
+
+.textimg{
+    padding:1vh;
+    max-width:30%;
+    height:auto;
 }
 
 h5 {
