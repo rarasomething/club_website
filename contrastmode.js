@@ -15,7 +15,6 @@ document.addEventListener('DOMContentLoaded', function () {
     contrastModeButton.addEventListener('mouseout', handleMouseOut);
 
     function handleHover() {
-        // Updated hover colors
         const hoverBackgroundColor = isContrastMode ? '#ffffff' : '#a3e0ff';
         const hoverBorderColor = isContrastMode ? '#ffffff' : '#a3e0ff';
         const hoverColor = isContrastMode ? '#11121f' : '#1c1c1c';
@@ -26,7 +25,6 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     function handleMouseOut() {
-        // Updated default colors
         const outBackgroundColor = isContrastMode ? '#11121f' : '#1c1c1c';
         const outBorderColor = isContrastMode ? '#ffffff' : '#a3e0ff';
         const outColor = isContrastMode ? '#ffffff' : '#a3e0ff';
@@ -87,7 +85,6 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     function updateButtonStyles() {
-        // Updated initial colors
         const buttonBackgroundColor = isContrastMode ? '#11121f' : '#1c1c1c';
         const buttonBorderColor = isContrastMode ? '#ffffff' : '#a3e0ff';
         const buttonColor = isContrastMode ? '#ffffff' : '#a3e0ff';
