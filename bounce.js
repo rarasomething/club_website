@@ -6,7 +6,7 @@ let colorIndex = 0;
 
 loader.addEventListener('animationiteration', () => {
   const color = colors[colorIndex];
-  loader.style.transition = "color 0.5s ease-in-out"; // Smooth transition
+  loader.style.transition = "color 0.7s ease-in-out"; // Smooth transition
   loader.style.color = color;
   colorIndex = (colorIndex + 1) % colors.length;
 });

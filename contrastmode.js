@@ -66,6 +66,11 @@ document.addEventListener('DOMContentLoaded', function () {
         headerTwoText.forEach(element => {
             element.style.color = headerTwoColor;
         });
+        const backgroundText = document.querySelectorAll('.backgroundText');
+        const backgroundTextColor = isContrastMode ? '#11121f' : '#1c1c1c';
+        backgroundText.forEach(element => {
+            element.style.color = backgroundTextColor;
+        });
 
         const backgroundColor = isContrastMode ? '#11121f' : '#1c1c1c';
         const textColor = isContrastMode ? '#ffffff' : '#a3e0ff';

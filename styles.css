@@ -311,6 +311,11 @@ h6 {
     color: #eaeaea
 }
 
+h7 {
+    font-family: 'Lucida Console', monospace;
+    font-size: 4vh;
+}
+
 h4 {
     text-align: left;
     font-family:'Roboto Mono', monospace;
@@ -369,7 +374,7 @@ h3 {
 
 .loader_page {
     text-align: center;
-    padding: 38vh 10vh;
+    padding: 30vh 10vh;
     font-size: 5vh;
 }
 
@@ -383,7 +388,6 @@ h3 {
     font-family: 'Lucida Console', monospace;
     display: inline-block;
     text-transform: uppercase;
-    font-family: 'Lucida Console', monospace;
     animation: bounce 2s ease-in-out infinite;
     animation-delay: calc(0.1s * var(--i));
 }
@@ -394,7 +398,7 @@ h3 {
     }
 
     20% {
-        transform: translateY(-5vh);
+        transform: translateY(-7vh);
     }
 }
 
@@ -418,3 +422,6 @@ h3 {
     color: #ffffff;
 }
 
+.backgroundText {
+    color: #1c1c1c;
+}
