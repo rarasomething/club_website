@@ -142,15 +142,6 @@ html {
     }
 }
 
-.navbar__links a {
-    display: inline-block;
-    padding: 2vh 3vh;
-    font-size: 2.5vh; 
-    text-decoration: none;
-    font-family: 'Roboto Mono', monospace;
-    color: #ffffff;
-}
-
 .bottom_line {
     text-align: left;
     padding-left: 10vh; 
@@ -187,8 +178,13 @@ html {
     padding-left: 35vh;
 }
 
+.navbar__links {
+    text-align: right;
+    padding-right: 10vh;
+}
+
 .navbar__links button {
-    font-size: 3vh; 
+    font-size: 2.5vh; 
     font-family: 'Roboto Mono', monospace;
     border-style: solid;
     border-width: 0.5vh; 
@@ -200,10 +196,25 @@ html {
     transition: all 0.3s ease;
 }
 
-.navbar__links {
-    padding: 0 5vh 0 0;  
-    text-align: right;
-    font-size: 7vh;
+.navbar__links a { 
+    font-size: 2.5vh; 
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+    color: #ffffff;
+    margin-left: 2.5vh;
+    margin-right: 2.5vh;
+}
+
+.navbar__links a:hover {
+    filter: brightness(0.8);
+}
+
+.navbar__links > li:first-child {
+    padding-right: 5vh;
+}
+
+.navbar__links > li:nth-child(4) {
+    padding-right: 5vh;
 }
 
 ul li { /* ALL NAVBAR ITEMS */
@@ -219,8 +230,6 @@ ul li { /* ALL NAVBAR ITEMS */
 }
     
 ul li ul { /* ITEMS INSIDE DROPDOWN */
-    clear: both;
-    width: 100%;
     text-align: left;
     border-style: none;
     visibility: hidden;
@@ -233,10 +242,11 @@ ul li ul { /* ITEMS INSIDE DROPDOWN */
 
 li ul li {
     text-align: left;
+    padding-top: 1.5vh;
 }
 
 li ul li a:hover { /* Hover animation */
-    padding-left: 5vh;
+    padding-left: 3vh;
     border-left: 0.25vh solid #ffffff;
     transition: all 0.3s ease;
 }
