@@ -201,8 +201,8 @@ html {
     text-decoration: none;
     font-family: 'Roboto Mono', monospace;
     color: #ffffff;
-    margin-left: 2.5vh;
-    margin-right: 2.5vh;
+    margin-left: 1vh;
+    margin-right: 1vh;
 }
 
 .navbar__links a:hover {
