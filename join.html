@@ -8,27 +8,31 @@
   <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
 </head>
 <body>
-    <nav class="navbar">
-      <div class="navbar__container">
-        <a href = "main.html">
-          <img class="logo" src="clublogo_light.png">
-        </a>
-        <div class="navbar__links">
-          <a href = "main.html"><span class="whiteText">home</span></a>
-          <a href = "about.html"><span class="yellowText">about us</span></a>
-          <a href = "projects.html"><span class="blueText">projects</span></a>
-          <a href = "join.html"><span class="pinkText">join the action!</span></a>
-          <button class="contrastMode" onmouseover= "handleHover()" onmouseout= "handleMouseOut()">change colors?</button>
-        </div>
-      </div>
-    </nav>
+  <nav class="navbar">
+    <a href = "main.html">
+      <img class="logo" src="clublogo_light.png">
+    </a>
+    <ul class="navbar__links">
+      <li><a href = "main.html"><span class="whiteText">home</span></a></li>
+      <li><a href = "about.html"><span class="yellowText">about us</span></a></li>
+      <li><a href="initiatives.html" id="dropdownbtn" class="dropbtn"><span class="blueText">initiatives</span></a>
+        <ul id="dropdown">
+          <li><a href="exploratory.html">VS exploratory</a></li>
+          <li><a href="session.html">sessions</a></li>
+          <li><a href="soon.html">coming soon</a></li>
+        </ul>
+      </li>
+      <li><a href = "join.html"><span class="pinkText">join the action!</span></a></li>
+      <button class="contrastMode" onmouseover="handleHover()" onmouseout="handleMouseOut()">change colors?</button>
+    </ul>
+  </nav>
   <br>
   <h1 data-aos="fade-up" data-aos-duration="1000"><span class="yellowText">Join</span>();</h1>
   <h2 data-aos="fade-up" data-aos-duration="1000">We're currently open for applications!</h2>
   <p data-aos="fade-up" data-aos-duration="1000">Use the form link below:</p>
   <a href="https://forms.gle/jnRVowrciBamZ4Xq7" target="_blank" data-aos="fade-up" data-aos-duration="1000">
     <button class="button-2">Application Form</button>
-</a>
+  </a>
   <br>
   <br>
   <br>

@@ -4,8 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VS Exploratory</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <nav class="navbar">
+        <a href = "main.html">
+          <img class="logo" src="clublogo_light.png">
+        </a>
+        <ul class="navbar__links">
+          <li><a href = "main.html"><span class="whiteText">home</span></a></li>
+          <li><a href = "about.html"><span class="yellowText">about us</span></a></li>
+          <li><a href="initiatives.html" id="dropdownbtn" class="dropbtn"><span class="blueText">initiatives</span></a>
+            <ul id="dropdown">
+              <li><a href="exploratory.html">VS exploratory</a></li>
+              <li><a href="session.html">sessions</a></li>
+              <li><a href="soon.html">coming soon</a></li>
+            </ul>
+          </li>
+          <li><a href = "join.html"><span class="pinkText">join the action!</span></a></li>
+          <button class="contrastMode" onmouseover="handleHover()" onmouseout="handleMouseOut()">change colors?</button>
+        </ul>
+    </nav>
+    <br>
+    <div class="bottom_line">
+    <div class="credits">
+        <h3>Programmed by:</h3>
+        <h3>Yoonjin Lee</h3>
+        <h3>Rachel Jung</h3>
+    </div>
+    <div class="contact">
+        <h3>Contact us if you have any questions!</h3>
+        <h3>wello.horld.121@gmail.com</h3>
+        <h3>y3lee2027@chadwickschool.org</h3>
+        <h3>yjung2027@chadwickschool.org</h3>
+    </div>
+    </div>
+    <script src="contrastmode.js"></script>
 </body>
 </html>
