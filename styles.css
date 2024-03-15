@@ -246,7 +246,7 @@ li ul li {
 }
 
 li ul li a:hover { /* Hover animation */
-    padding-left: 3vh;
+    padding-left: 1.5vh;
     border-left: 0.25vh solid #ffffff;
     transition: all 0.3s ease;
 }
